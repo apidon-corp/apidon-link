@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         // Match all API routes
-        source: "/apple-app-site-association",
+        source: "/.well-known/apple-app-site-association",
         headers: [
           {
             key: "Content-Type",
