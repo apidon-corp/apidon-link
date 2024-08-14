@@ -1,19 +1,32 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "GJ442HPUPU.com.abovestars.dev.apidon",
-        "paths": ["/records/*"]
+        "appIDs": [
+          "GJ442HPUPU.com.abovestars.dev.apidon"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/profile/*",
+            "comment": "Matches any URL with a path that starts with /profile/."
+          }
+        ]
       }
     ]
   },
-
-  "activitycontinuation": {
-    "apps": ["GJ442HPUPU.com.abovestars.dev.apidon"]
-  },
-
   "webcredentials": {
-    "apps": ["GJ442HPUPU.com.abovestars.dev.apidon"]
+    "apps": [
+      "GJ442HPUPU.com.abovestars.dev.apidon"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "GJ442HPUPU.com.abovestars.dev.apidon"
+    ]
   }
 }
