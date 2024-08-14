@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "GJ442HPUPU.com.abovestars.dev.apidon",
+        "paths": ["/records/*"]
+      }
+    ]
+  },
+
+  "activitycontinuation": {
+    "apps": ["GJ442HPUPU.com.abovestars.dev.apidon"]
+  },
+
+  "webcredentials": {
+    "apps": ["GJ442HPUPU.com.abovestars.dev.apidon"]
+  }
+}
