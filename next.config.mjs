@@ -11,6 +11,7 @@ const nextConfig = {
             key: "Content-Type",
             value: "application/json",
           },
+          { key: "Cache-Control", value: "no-cache" },
         ],
       },
     ];
