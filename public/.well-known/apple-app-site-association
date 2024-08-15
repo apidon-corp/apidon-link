@@ -3,7 +3,7 @@
     "details": [
       {
         "appIDs": [
-          "GJ442HPUPU.com.abovestars.dev.apidon"
+          "GJ442HPUPU.com.abovestars.test.apidon"
         ],
         "components": [
           {
@@ -25,12 +25,12 @@
   },
   "webcredentials": {
     "apps": [
-      "GJ442HPUPU.com.abovestars.dev.apidon"
+      "GJ442HPUPU.com.abovestars.test.apidon"
     ]
   },
   "appclips": {
     "apps": [
-      "GJ442HPUPU.com.abovestars.dev.apidon"
+      "GJ442HPUPU.com.abovestars.test.apidon"
     ]
   }
 }
