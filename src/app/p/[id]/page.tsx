@@ -1,8 +1,5 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Metadata } from "next";
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Apidon • Make Every Event Unique",
@@ -34,16 +31,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function page() {
   return (
-    <html lang="en">
-      <meta name="apple-itunes-app" content="app-id=6557064412" />
-
-      <body className={inter.className}>{children}</body>
-    </html>
+    <div className="w-full h-screen flex flex-auto justify-center items-center">
+      <text className="text-center">You will be directed to Apidon App (Dev) in a few seconds.</text>
+    </div>
   );
 }
