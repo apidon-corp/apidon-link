@@ -12,12 +12,12 @@
             "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
           },
           {
-            "/": "/profile/*",
-            "comment": "Matches any URL with a path that starts with /profile/."
+            "/": "/p/*",
+            "comment": "Matches any URL with a path that starts with /p/."
           },
           {
-            "/": "/post/*",
-            "comment": "Matches any URL with a path that starts with /post/."
+            "/": "/*",
+            "comment": "Matches any root-level path for dynamic usernames, excluding specific patterns."
           }
         ]
       }
